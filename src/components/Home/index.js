@@ -57,7 +57,7 @@ const Home = () => {
             </a>
             <a
               target="blank"
-              href="https://www.instagram.com/official_anubhavpanfer/"
+              href="https://www.instagram.com/anubhav_officia1/"
             >
               <SiInstagram className="contactIcons ml-3" />
             </a>

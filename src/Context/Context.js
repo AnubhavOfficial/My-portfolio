@@ -8,14 +8,22 @@
 import diseasePrediction from "../assets/ProductImages/DiseasePrediction.png";
 import foodVillaa from "../assets/ProductImages/FoodVillaa.JPG";
 import weather from "../assets/ProductImages/WhatsTheWeather.JPG";
+import amazon from "../assets/ProductImages/AmazonReplica.png";
 
 export const states = {
   projects: [
     {
-      title: "Disease Prediction",
-      img: diseasePrediction,
-      description: `This is a disease prediction WebApp where the user can select symptoms that he is suffering from and based on those symptoms a disease is predicted. You can further know about the disease as I have used another API for the same. `,
-      url: "https://diseaseprediction.netlify.app/",
+      title: "Amazon Replica",
+      img: amazon,
+      description: `This is amazon replica where I have tried to duplicate different features as provided by Amazon. I have used ReactJs along with Redux and used stripe for the payment part.
+      Note: Please use 4242-4242-4242-4242 as the card for payemnt, and add any future month/year for the card`,
+      url: "https://amazon-clone-anubhav.netlify.app/",
+    },
+    {
+      title: "What's the Weather",
+      img: weather,
+      description: `This is a weather details WebApp where the user can search for weather information for any location. I have used react-redux and redux-sagas for this project to handle the global state and API calls `,
+      url: "https://whatstheweathersite.netlify.app/",
     },
     {
       title: "Food Villaa",
@@ -24,10 +32,10 @@ export const states = {
       url: "https://foodvillaa.netlify.app/",
     },
     {
-      title: "What's the Weather",
-      img: weather,
-      description: `This is a weather details WebApp where the user can search for weather information for any location. I have used react-redux and redux-sagas for this project to handle the global state and API calls `,
-      url: "https://whatstheweathersite.netlify.app/",
+      title: "Disease Prediction",
+      img: diseasePrediction,
+      description: `This is a disease prediction WebApp where the user can select symptoms that he is suffering from and based on those symptoms a disease is predicted. You can further know about the disease as I have used another API for the same. `,
+      url: "https://diseaseprediction.netlify.app/",
     },
     //     {
     //       title: "Alcatraz",
