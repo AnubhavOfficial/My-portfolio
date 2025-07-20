@@ -64,7 +64,7 @@ const Footer = () => {
                   <a href="mailto:anubhavpanfer@gmail.com">
                     <FiMail className="contactIcons ml-3" />
                   </a>
-                  <a href="tel:9478895037">
+                  <a href="tel:7888659886">
                     <FiPhoneCall className="contactIcons ml-3" />
                   </a>
                 </div>
