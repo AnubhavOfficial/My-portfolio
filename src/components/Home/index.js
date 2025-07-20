@@ -64,7 +64,7 @@ const Home = () => {
             <a href="mailto:anubhavpanfer@gmail.com">
               <FiMail className="contactIcons ml-3" />
             </a>
-            <a href="tel:918968740348">
+            <a href="tel:917888659886">
               <FiPhoneCall className="contactIcons ml-3" />
             </a>
           </div>
